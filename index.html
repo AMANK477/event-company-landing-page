@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="bg-gray-800 text-white p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">EventCo</div>
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-400">About</a></li>
+                <li><a href="#events" class="hover:text-gray-400">Events</a></li>
+                <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="bg-cover bg-center h-screen text-center flex items-center justify-center" style="background-image: url('path-to-image.jpg');">
+        <div>
+            <h1 class="text-4xl md:text-6xl text-white font-bold mb-4">Welcome to EventCo</h1>
+            <p class="text-lg text-white mb-8">Your Partner for Memorable Events</p>
+            <a href="#events" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Explore Events</a>
+        </div>
+    </section>
+    <section id="about" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">About Us</h2>
+            <p class="text-gray-700">EventCo is a leading event management company that specializes in creating unforgettable experiences.</p>
+        </div>
+    </section>
+    <section id="events" class="py-16 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Events</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Event Item -->
+                <div class="bg-white p-4 shadow-md">
+                    <img src="/img/eve1.avif" alt="Event Image" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-xl font-bold mb-2">Yash ki Shaadi</h3>
+                    <p class="text-gray-600">"Arey bhaiyon aur behno, tayyar ho jao Yash ki shaadi ke ultimate hungame ke liye! 🌟
+                        Dulha Yash apne swabhavik sukoon se door, ab ready hai shaadi ke jhamelon mein phasne ke liye. Mehendi se lekar baraat tak, har event mein hoga entertainment ka full-on dose! Dulhan ke gharwale already tension mein hain, aur Yash ke dost full masti mode mein! 🎉
+                        Toh apne dancing shoes pehno aur aao, kyunki yeh shaadi ka scene blockbuster hone wala hai! #YashKiShaadi #DanceKaAsar #ShaadiKiDhoom".</p>
+                </div>
+                <!-- Repeat for other events -->
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded">
+                </div>
+                <div class="mb-4">
+                    <textarea placeholder="Your Message" class="w-full p-3 border border-gray-300 rounded"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    
+    
+    
+</body>
+</html>
